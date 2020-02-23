@@ -1,0 +1,234 @@
+/*==================*/
+/* BASIC SETUP */
+/*==================*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+/*==================*/
+/* REUSEABALE COMPONETS */
+/*==================*/
+header,
+section,
+footer {
+  padding: 50px;
+}
+.row {
+  max-width: 980px;
+  margin: auto;
+}
+h3{
+  font-size: 170%;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-bottom: 0;
+  letter-spacing: 3px;
+}
+h4 {
+  font-size: 100%;
+  text-transform: uppercase;
+  padding: 10px;
+}
+.border {
+  border: 1px solid #000;
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+}
+/*==================*/
+/* NAVBAR SECTION */
+/*==================*/
+/*.navbar ul li {
+  display: block;
+  float: left;
+  padding: 0 5px;
+  color: #fff;
+}
+.navbar ul li a {
+  color: #fff;
+  background-color: #80889C;
+  padding: 5px 8px;
+  border-radius: 5px;
+  transition: .5s;
+}
+.navbar ul li a:hover {
+  background-color: #575e70;
+}*/
+
+/*==================*/
+/* HERO SECTION */
+/*==================*/
+.hero {
+  background: url('../img/bg.png') no-repeat center / cover ;
+  height: 100vh;
+  color: #fff;
+}
+.logo {
+  font-size: 100%;
+  padding: 70px;
+}
+.hero-text-box {
+  width: 100%;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%
+
+}
+.hero-text-box h1 {
+  font-size: 270%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 30px;
+}
+.hero-text-box h2{
+  font-size: 270%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+}
+.hero-text-box p {
+  font-size: 75%;
+  width: 25%;
+  margin: auto;
+}
+.scroll-down {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 60px;
+  margin: auto;
+}
+.scroll-down a i {
+  color: #fff;
+  border: 2px solid #fff;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 100%;
+  border-radius: 50%;
+}
+/*==================*/
+/* ABOUT SECTION */
+/*==================*/
+.about p {
+  width: 80.5%;
+  margin: auto;
+  font-size: 76%;
+  padding: 20px;
+  line-height: 25px;
+}
+
+/*==================*/
+/* SERVICES SECTION */
+/*==================*/
+.services {
+  background: url('../img/bg1.png') no-repeat center / cover;
+  color: #fff;
+}
+.services .border {
+  border: 1px solid #fff;
+}
+.services p {
+  width: 80.5%;
+  margin: auto;
+  font-size: 76%;
+  padding: 20px;
+  line-height: 25px;
+}
+/*==================*/
+/* SERVICES SECTION */
+/*==================*/
+.logo-box {
+  font-size: 85px;
+  padding: 20px;
+}
+.work p {
+  width: 80.5%;
+  margin: auto;
+  font-size: 76%;
+  padding: 20px;
+  line-height: 25px;
+}
+/*==================*/
+/* OUR WORKS SECTION */
+/*==================*/
+.our-works {
+  background: -webkit-gradient( linear,left top, left bottom,from(rgba(171, 180, 201, 1)),to(rgba(171, 180, 201, .3))), url('../../vendors/img/bg.png') no-repeat center /cover;
+  background: linear-gradient( rgba(171, 180, 201, 1),rgba(171, 180, 201, .3)), url('../../vendors/img/bg.png') no-repeat center /cover;
+  padding: 50px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 5px;
+  grid-row-gap: 10px;
+}
+.works-box img {
+   display: block;
+   height: 90%;
+   width: 90%;
+   -webkit-transition: .5s;
+   transition: .5s;
+}
+.works-box img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.works-box p {
+  text-transform: uppercase;
+  margin-top: -40px;
+  color: #fff;
+}
+/*==================*/
+/* CONTACT SECTION */
+/*==================*/
+.contact p {
+  width: 80.5%;
+  margin: auto;
+  font-size: 76%;
+  padding: 20px;
+  line-height: 25px;
+}
+.contact a {
+  font-size: 100%;
+  color: #fff;
+  background-color: #7b77c9;
+  width: 30%;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+.contact a:hover {
+  background-color: #5853bb;
+}
+/*==================*/
+/* FOOTER SECTION */
+/*==================*/
+.copyright {
+  background: -webkit-gradient( linear,left top, left bottom,from(rgba(171, 180, 201, .3)),to(rgba(171, 180, 201, 1))), url('../../vendors/img/bg.png') no-repeat center /cover;
+  background: linear-gradient( rgba(171, 180, 201, .3),rgba(171, 180, 201, 1)), url('../../vendors/img/bg.png') no-repeat center /cover;
+}
+.copyright img {
+  font-size: 50px;
+  padding: 20px;
+}
